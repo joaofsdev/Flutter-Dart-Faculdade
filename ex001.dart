@@ -5,7 +5,7 @@ class Personagem {
   final String? apelido;
 
   Personagem(this.nome, {this.nivel = 1, this.forca, this.apelido}); // No parenteses e obrigado a passar valor, ja na chaves nao.
-                                                                    // this e usado para parametros nomeados/opcionais para passarmos valores chamando o nome
+                                                                    // this e usado para parametros nomeados/opcionais para passarmos valores chamando o nome 
 
   int poder() {
     return (forca ?? 10) * nivel;
