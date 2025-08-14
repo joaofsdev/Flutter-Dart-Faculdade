@@ -4,7 +4,7 @@ double precoFinal(
   double frete = 0,
   String? cupom,
 }) {
-  // TODO 1: se desconto for null, use 0
+  // TODO 1: se desconto for null, usa 0
   final d = desconto ?? 0;
 
   // TODO 2: se cupom (case-insensitive) for "FRETEGRATIS", frete = 0
