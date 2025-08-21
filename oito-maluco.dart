@@ -206,7 +206,5 @@ class CrazyEights {
 
 void main() {
   print('=== Oito Maluco — Exercício (4 jogadores) ===');
-  print('Complete os TODOs e depois chame a simulação.');
-  // após implementar, descomente a linha abaixo.
   CrazyEights().run();
 }
